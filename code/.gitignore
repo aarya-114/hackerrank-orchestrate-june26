@@ -1,0 +1,114 @@
+# =============================================================================
+# Environment & Secrets
+# =============================================================================
+.env
+.env.local
+.env.*.local
+*.env
+
+# =============================================================================
+# Python
+# =============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+*.pyo
+*.so
+
+# Distribution / packaging
+*.egg
+*.egg-info/
+dist/
+build/
+wheels/
+sdist/
+.eggs/
+MANIFEST
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+ENV/
+env.bak/
+venv.bak/
+
+# Type checkers & linters
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.ruff_cache/
+.pytype/
+.pyre/
+
+# Testing
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+nosetests.xml
+pytest.xml
+*.cover
+*.hypothesis/
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+*.ipynb
+
+# =============================================================================
+# Output files (generated at runtime — do not commit)
+# =============================================================================
+output.csv
+evaluation/strategy_a_predictions.csv
+evaluation/strategy_b_predictions.csv
+evaluation/strategy_c_predictions.csv
+evaluation/evaluation_report.md
+
+# =============================================================================
+# Logs & caches
+# =============================================================================
+*.log
+logs/
+*.cache
+.cache/
+
+# =============================================================================
+# macOS
+# =============================================================================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# =============================================================================
+# Editors & IDEs
+# =============================================================================
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains (PyCharm, IntelliJ, etc.)
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Vim / Emacs swap files
+*.swp
+*.swo
+*~
+\#*\#
+.\#*
+
+# =============================================================================
+# Miscellaneous
+# =============================================================================
+*.bak
+*.tmp
+*.orig
